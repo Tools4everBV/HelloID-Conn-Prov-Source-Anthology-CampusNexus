@@ -1,0 +1,61 @@
+[
+  {
+    "key": "BaseURI",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "BaseURI",
+      "placeholder": "https://sisclientweb-123456.campusnexus.cloud",
+      "required": true
+    }
+  },
+  {
+    "key": "PageSize",
+    "type": "input",
+    "defaultValue": "1000",
+    "templateOptions": {
+      "label": "Page Size",
+      "required": true
+    }
+  },
+  {
+    "key": "ApplicationKey",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "Application Key",
+      "type": "password",
+      "required": true
+    }
+  },
+  {
+    "key": "StudentFields",
+    "type": "input",
+    "defaultValue": "Id,StudentNumber,FirstName,LastName,DateOfBirth,PhoneNumber,SchoolStatusId,ShiftId,ProgramId,OtherEmailAddress,EmailAddress",
+    "templateOptions": {
+      "label": "Student Fields",
+      "placeholder": "",
+      "required": true
+    }
+  },
+  {
+    "key": "IncludeStatuses",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "Statuses Included",
+      "placeholder": "",
+      "required": true
+    }
+  },
+  {
+    "key": "ExcludeShifts",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "Shifts Excluded",
+      "placeholder": "",
+      "required": false
+    }
+  }
+]
